@@ -57,17 +57,19 @@ public class GoogleDemo {
 //				Thread.sleep(5000);
 //				myDriver.findElement(By.xpath("//input[@class='whsOnd zHQkBf']")).sendKeys("Sam");
 //				Thread.sleep(5000);
-				Thread.sleep(1000);
-				myDriver.findElement(By.xpath("/html/body/div/div[4]/form/div[2]/div/div[1]/div/div[1]/input")).sendKeys("testing");
-				Thread.sleep(3000);
-				myDriver.findElement(By.name("btnK")).click();
-				Thread.sleep(5000);
-				System.out.println(myDriver.findElement(By.id("resultStats")).getText());
-				myDriver.findElement(By.name("q")).click();
-				Thread.sleep(2000);
-			System.out.println(myDriver.findElement(By.className("erkvQe")).getText());
-			Thread.sleep(20000000);
-				myDriver.close();
+//				Thread.sleep(1000);
+//				myDriver.findElement(By.xpath("/html/body/div/div[4]/form/div[2]/div/div[1]/div/div[1]/input")).sendKeys("testing");
+//				Thread.sleep(3000);
+//				myDriver.findElement(By.name("btnK")).click();
+//				Thread.sleep(5000);
+//				System.out.println(myDriver.findElement(By.id("resultStats")).getText());
+//				myDriver.findElement(By.name("q")).click();
+//				Thread.sleep(2000);
+//			System.out.println(myDriver.findElement(By.className("erkvQe")).getText());
+//			Thread.sleep(20000000);
+//				myDriver.close();
+				
+				
 			}
 		
 		
